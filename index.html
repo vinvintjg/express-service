@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar bg-body-tertiary mb-4 sticky-top py-3">
+      <div class="container">
+        <div class="d-flex align-items-center">
+          <a class="text-black fs-6 me-3" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+            </svg>
+          </a>
+          <h4 class="mb-0">Express Purchase</h4>
+        </div>
+      </div>
+    </nav>
+    <section class="mb-5">
+      <div class="container">
+        <div class="row mb-5 gy-4">
+          <div class="col-md-6 order-last order-sm-first">
+            <div class="mb-3 position-relative">
+              <span class="position-absolute custom-icon">
+                <svg height="20" viewBox="0 0 32 32" width="20" xmlns="http://www.w3.org/2000/svg"><path d="m22 8h-1v-6h-2v6h-6v-6h-2v6h-1a2 2 0 0 0 -2 2v6a8.0073 8.0073 0 0 0 7 7.9307v6.0693h2v-6.0693a8.0073 8.0073 0 0 0 7-7.9307v-6a2 2 0 0 0 -2-2zm0 8a6 6 0 0 1 -12 0v-6h12z"/><path d="m0 0h32v32h-32z" fill="none"/></svg>
+              </span>
+              <input type="email" class="form-control custom-input rounded-1 shadow-none" id="exampleFormControlInput1" placeholder="name@example.com" value="43901394346">
+            </div>
+            <div class="mb-3 position-relative text-primary">
+              <span class="position-absolute custom-icon currency fs-5">
+                &#8358;
+              </span>
+              <input type="email" class="form-control custom-input rounded-1 shadow-none" id="exampleFormControlInput1" placeholder="Enter Amount">
+            </div>
+            <div class="mb-3 position-relative">
+              <span class="position-absolute custom-icon">
+                <svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M18.1182 14.702L14 15.5C11.2183 14.1038 9.5 12.5 8.5 10L9.26995 5.8699L7.81452 2L4.0636 2C2.93605 2 2.04814 2.93178 2.21654 4.04668C2.63695 6.83 3.87653 11.8765 7.5 15.5C11.3052 19.3052 16.7857 20.9564 19.802 21.6127C20.9668 21.8662 22 20.9575 22 19.7655L22 16.1812L18.1182 14.702Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              <input type="email" class="form-control custom-input rounded-1 shadow-none" id="exampleFormControlInput1" placeholder="Phone">
+            </div>
+            <div class="position-relative">
+              <span class="position-absolute custom-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" color="#000000" fill="none">
+                  <path d="M7 8.5L9.94202 10.2394C11.6572 11.2535 12.3428 11.2535 14.058 10.2394L17 8.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M2.01576 13.4756C2.08114 16.5411 2.11382 18.0739 3.24495 19.2093C4.37608 20.3448 5.95033 20.3843 9.09883 20.4634C11.0393 20.5122 12.9607 20.5122 14.9012 20.4634C18.0497 20.3843 19.6239 20.3448 20.755 19.2093C21.8862 18.0739 21.9189 16.5411 21.9842 13.4756C22.0053 12.4899 22.0053 11.51 21.9842 10.5244C21.9189 7.45883 21.8862 5.92606 20.755 4.79063C19.6239 3.6552 18.0497 3.61565 14.9012 3.53654C12.9607 3.48778 11.0393 3.48778 9.09882 3.53653C5.95033 3.61563 4.37608 3.65518 3.24495 4.79062C2.11382 5.92605 2.08113 7.45882 2.01576 10.5243C1.99474 11.51 1.99474 12.4899 2.01576 13.4756Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                </svg>
+              </span>
+              <input type="email" class="form-control custom-input rounded-1 shadow-none" id="exampleFormControlInput1" placeholder="Email Address">
+            </div>
+          </div>
+          <div class="col-md-6 order-first order-sm-last">
+            <div class="credit-card flex-column d-flex justify-content-between rounded-4 p-4 text-white">
+              <img src="assets/img/vendr.svg" alt="" width="100">
+              <div class="d-flex align-items-center">
+                <span class="fs-4 fw-semibold">&#8358; 2500.00</span>
+                <span class="d-flex align-items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="ms-4 me-1" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                    <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                  </svg>
+                  <span class="text-uppercase fs-5">jenny wilson</span>
+                </span>
+              </div>
+              <span>
+                <span class="text-uppercase card-detail-text">card details</span>
+                <h2 class="mb-0">43901394346</h2>
+                <span>Lekki, Phase 1, Lagos State</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="d-grid gap-2 m-auto text-center wrapper-button">
+          <button class="btn btn-primary py-3 rounded-1" type="button">Confirm & Pay</button>
+          <p class="mb-0">By clicking on confirm & pay, you agree to our terms of the transaction. </p>
+        </div>
+      </div>
+    </section>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>

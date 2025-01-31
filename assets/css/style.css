@@ -1,0 +1,39 @@
+.custom-input {
+  padding: 13px 20px !important;
+  padding-left: 35px !important;
+}
+
+.custom-icon {
+  top: 25%;
+  left: 10px;
+}
+
+.custom-icon.currency {
+  top: 23%;
+  left: 12px;
+}
+
+.credit-card {
+  background-color: #11345e;
+  max-width: 500px;
+  height: 100%;
+  margin: auto;
+}
+
+.card-detail-text {
+  font-size: 10px;
+}
+.wrapper-button {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .credit-card {
+    height: 230px;
+    max-width: 100%;
+  }
+
+  .wrapper-button {
+    width: 100%;
+  }
+}
